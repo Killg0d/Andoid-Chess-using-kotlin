@@ -24,7 +24,7 @@ private fun reset(){
     pieceBox.add(ChessPiece(col =4,row=0,ChessPlayer.WHITE, ChessRank.KING))
     pieceBox.add(ChessPiece(col =3,row=7,ChessPlayer.Black, ChessRank.QUEEN))
     pieceBox.add(ChessPiece(col =4,row=7,ChessPlayer.Black, ChessRank.KING))
-    
+
 }
     private fun pieceAt(col: Int,row:Int):ChessPiece?{
         for (piece in pieceBox){
